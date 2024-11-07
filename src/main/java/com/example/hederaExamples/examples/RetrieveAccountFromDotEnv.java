@@ -9,7 +9,7 @@ import io.github.cdimascio.dotenv.Dotenv;
 import java.util.Objects;
 
 @Component
-public class FungibleToken {
+public class RetrieveAccountFromDotEnv {
 
     @EventListener(ApplicationReadyEvent.class)
     public void retrieveOperatorIdWithDotEnv(){
